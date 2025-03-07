@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from tqdm import tqdm
 import numpy as np
-from testnewmodel import GNN, GNN_graphpred2
+from model import GNN, GNN_graphpred2
 from sklearn.metrics import roc_auc_score
 from splitters import scaffold_split
 import pandas as pd
